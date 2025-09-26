@@ -1,0 +1,90 @@
+{
+  "mutualFunds": [
+    {
+      "name": "Axis Bluechip",
+      "amountInvested": 200000,
+      "currentValue": 245000
+    },
+    {
+      "name": "HDFC Midcap",
+      "amountInvested": 150000,
+      "currentValue": 210000
+    }
+  ],
+  "stocks": [
+    {
+      "symbol": "TCS",
+      "units": 20,
+      "buyPrice": 3200,
+      "currentPrice": 3800
+    },
+    {
+      "symbol": "HDFCBANK",
+      "units": 35,
+      "buyPrice": 1550,
+      "currentPrice": 1630
+    },
+    {
+      "symbol": "RELIANCE",
+      "units": 10,
+      "buyPrice": 2400,
+      "currentPrice": 2900
+    }
+  ],
+  "timeseries": [
+    {
+      "month": "2025-01",
+      "mutualFunds": 220000,
+      "stocksValue": 160000,
+      "returns": 15000
+    },
+    {
+      "month": "2025-02",
+      "mutualFunds": 228000,
+      "stocksValue": 165000,
+      "returns": 18000
+    },
+    {
+      "month": "2025-03",
+      "mutualFunds": 236000,
+      "stocksValue": 170000,
+      "returns": 22000
+    },
+    {
+      "month": "2025-04",
+      "mutualFunds": 240000,
+      "stocksValue": 175000,
+      "returns": 26000
+    },
+    {
+      "month": "2025-05",
+      "mutualFunds": 245000,
+      "stocksValue": 182000,
+      "returns": 30000
+    },
+    {
+      "month": "2025-06",
+      "mutualFunds": 248000,
+      "stocksValue": 188000,
+      "returns": 33000
+    },
+    {
+      "month": "2025-07",
+      "mutualFunds": 250000,
+      "stocksValue": 192000,
+      "returns": 35000
+    },
+    {
+      "month": "2025-08",
+      "mutualFunds": 253000,
+      "stocksValue": 196000,
+      "returns": 38000
+    },
+    {
+      "month": "2025-09",
+      "mutualFunds": 256000,
+      "stocksValue": 200000,
+      "returns": 41000
+    }
+  ]
+}

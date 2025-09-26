@@ -1,0 +1,962 @@
+[
+  {
+    "transaction_id": "TXN-0063",
+    "date": "2025-01-01",
+    "type": "debit",
+    "amount": 43293,
+    "balance_after": 0,
+    "description": "Salary Credit"
+  },
+  {
+    "transaction_id": "TXN-0078",
+    "date": "2025-01-03",
+    "type": "credit",
+    "amount": 11794,
+    "balance_after": 0,
+    "description": "ATM Withdrawal"
+  },
+  {
+    "transaction_id": "TXN-0034",
+    "date": "2025-01-07",
+    "type": "debit",
+    "amount": 39108,
+    "balance_after": 66047,
+    "description": "ATM Withdrawal"
+  },
+  {
+    "transaction_id": "TXN-0045",
+    "date": "2025-01-14",
+    "type": "credit",
+    "amount": 14128,
+    "balance_after": 0,
+    "description": "Bill Payment"
+  },
+  {
+    "transaction_id": "TXN-0053",
+    "date": "2025-01-14",
+    "type": "debit",
+    "amount": 42634,
+    "balance_after": 0,
+    "description": "POS Purchase"
+  },
+  {
+    "transaction_id": "TXN-0058",
+    "date": "2025-01-15",
+    "type": "debit",
+    "amount": 31448,
+    "balance_after": 0,
+    "description": "Salary Credit"
+  },
+  {
+    "transaction_id": "TXN-0068",
+    "date": "2025-01-15",
+    "type": "credit",
+    "amount": 39219,
+    "balance_after": 0,
+    "description": "UPI Transfer"
+  },
+  {
+    "transaction_id": "TXN-0083",
+    "date": "2025-01-15",
+    "type": "credit",
+    "amount": 29548,
+    "balance_after": 0,
+    "description": "Salary Credit"
+  },
+  {
+    "transaction_id": "TXN-0115",
+    "date": "2025-01-19",
+    "type": "credit",
+    "amount": 1708,
+    "balance_after": 0,
+    "description": "Bill Payment"
+  },
+  {
+    "transaction_id": "TXN-0101",
+    "date": "2025-01-21",
+    "type": "credit",
+    "amount": 18223,
+    "balance_after": 0,
+    "description": "ATM Withdrawal"
+  },
+  {
+    "transaction_id": "TXN-0082",
+    "date": "2025-01-22",
+    "type": "credit",
+    "amount": 33773,
+    "balance_after": 0,
+    "description": "UPI Transfer"
+  },
+  {
+    "transaction_id": "TXN-0110",
+    "date": "2025-01-23",
+    "type": "debit",
+    "amount": 7673,
+    "balance_after": 0,
+    "description": "ATM Withdrawal"
+  },
+  {
+    "transaction_id": "TXN-0008",
+    "date": "2025-01-24",
+    "type": "credit",
+    "amount": 19479,
+    "balance_after": 262334,
+    "description": "UPI Transfer"
+  },
+  {
+    "transaction_id": "TXN-0043",
+    "date": "2025-01-27",
+    "type": "credit",
+    "amount": 515,
+    "balance_after": 0,
+    "description": "Bill Payment"
+  },
+  {
+    "transaction_id": "TXN-0038",
+    "date": "2025-01-28",
+    "type": "debit",
+    "amount": 45102,
+    "balance_after": 25465,
+    "description": "Bill Payment"
+  },
+  {
+    "transaction_id": "TXN-0003",
+    "date": "2025-01-30",
+    "type": "debit",
+    "amount": 2957,
+    "balance_after": 297883,
+    "description": "POS Purchase"
+  },
+  {
+    "transaction_id": "TXN-0081",
+    "date": "2025-01-30",
+    "type": "debit",
+    "amount": 13037,
+    "balance_after": 0,
+    "description": "Salary Credit"
+  },
+  {
+    "transaction_id": "TXN-0007",
+    "date": "2025-02-01",
+    "type": "debit",
+    "amount": 3749,
+    "balance_after": 242855,
+    "description": "ATM Withdrawal"
+  },
+  {
+    "transaction_id": "TXN-0023",
+    "date": "2025-02-01",
+    "type": "debit",
+    "amount": 42910,
+    "balance_after": 190861,
+    "description": "Bill Payment"
+  },
+  {
+    "transaction_id": "TXN-0041",
+    "date": "2025-02-01",
+    "type": "debit",
+    "amount": 4913,
+    "balance_after": 0,
+    "description": "ATM Withdrawal"
+  },
+  {
+    "transaction_id": "TXN-0012",
+    "date": "2025-02-02",
+    "type": "credit",
+    "amount": 41067,
+    "balance_after": 373046,
+    "description": "ATM Withdrawal"
+  },
+  {
+    "transaction_id": "TXN-0002",
+    "date": "2025-02-07",
+    "type": "credit",
+    "amount": 24465,
+    "balance_after": 300840,
+    "description": "Bill Payment"
+  },
+  {
+    "transaction_id": "TXN-0064",
+    "date": "2025-02-13",
+    "type": "credit",
+    "amount": 25963,
+    "balance_after": 0,
+    "description": "ATM Withdrawal"
+  },
+  {
+    "transaction_id": "TXN-0067",
+    "date": "2025-02-13",
+    "type": "credit",
+    "amount": 11641,
+    "balance_after": 0,
+    "description": "ATM Withdrawal"
+  },
+  {
+    "transaction_id": "TXN-0066",
+    "date": "2025-02-14",
+    "type": "debit",
+    "amount": 30853,
+    "balance_after": 0,
+    "description": "UPI Transfer"
+  },
+  {
+    "transaction_id": "TXN-0104",
+    "date": "2025-02-15",
+    "type": "debit",
+    "amount": 4270,
+    "balance_after": 0,
+    "description": "ATM Withdrawal"
+  },
+  {
+    "transaction_id": "TXN-0106",
+    "date": "2025-02-15",
+    "type": "debit",
+    "amount": 5988,
+    "balance_after": 0,
+    "description": "Bill Payment"
+  },
+  {
+    "transaction_id": "TXN-0005",
+    "date": "2025-02-16",
+    "type": "debit",
+    "amount": 4373,
+    "balance_after": 288432,
+    "description": "Bill Payment"
+  },
+  {
+    "transaction_id": "TXN-0050",
+    "date": "2025-02-22",
+    "type": "debit",
+    "amount": 49019,
+    "balance_after": 0,
+    "description": "Salary Credit"
+  },
+  {
+    "transaction_id": "TXN-0071",
+    "date": "2025-02-22",
+    "type": "credit",
+    "amount": 28930,
+    "balance_after": 0,
+    "description": "ATM Withdrawal"
+  },
+  {
+    "transaction_id": "TXN-0040",
+    "date": "2025-02-23",
+    "type": "debit",
+    "amount": 42068,
+    "balance_after": 0,
+    "description": "UPI Transfer"
+  },
+  {
+    "transaction_id": "TXN-0100",
+    "date": "2025-02-23",
+    "type": "credit",
+    "amount": 17904,
+    "balance_after": 0,
+    "description": "Salary Credit"
+  },
+  {
+    "transaction_id": "TXN-0117",
+    "date": "2025-02-24",
+    "type": "debit",
+    "amount": 43525,
+    "balance_after": 0,
+    "description": "UPI Transfer"
+  },
+  {
+    "transaction_id": "TXN-0048",
+    "date": "2025-03-01",
+    "type": "debit",
+    "amount": 31039,
+    "balance_after": 0,
+    "description": "UPI Transfer"
+  },
+  {
+    "transaction_id": "TXN-0006",
+    "date": "2025-03-05",
+    "type": "debit",
+    "amount": 41828,
+    "balance_after": 246604,
+    "description": "Bill Payment"
+  },
+  {
+    "transaction_id": "TXN-0009",
+    "date": "2025-03-15",
+    "type": "credit",
+    "amount": 37915,
+    "balance_after": 300249,
+    "description": "Salary Credit"
+  },
+  {
+    "transaction_id": "TXN-0091",
+    "date": "2025-03-15",
+    "type": "debit",
+    "amount": 9495,
+    "balance_after": 0,
+    "description": "UPI Transfer"
+  },
+  {
+    "transaction_id": "TXN-0069",
+    "date": "2025-03-16",
+    "type": "debit",
+    "amount": 43574,
+    "balance_after": 0,
+    "description": "Salary Credit"
+  },
+  {
+    "transaction_id": "TXN-0033",
+    "date": "2025-03-19",
+    "type": "debit",
+    "amount": 43656,
+    "balance_after": 105155,
+    "description": "ATM Withdrawal"
+  },
+  {
+    "transaction_id": "TXN-0044",
+    "date": "2025-03-19",
+    "type": "credit",
+    "amount": 24329,
+    "balance_after": 0,
+    "description": "Bill Payment"
+  },
+  {
+    "transaction_id": "TXN-0077",
+    "date": "2025-03-19",
+    "type": "credit",
+    "amount": 29344,
+    "balance_after": 0,
+    "description": "ATM Withdrawal"
+  },
+  {
+    "transaction_id": "TXN-0070",
+    "date": "2025-03-21",
+    "type": "credit",
+    "amount": 1902,
+    "balance_after": 0,
+    "description": "POS Purchase"
+  },
+  {
+    "transaction_id": "TXN-0093",
+    "date": "2025-03-25",
+    "type": "debit",
+    "amount": 11081,
+    "balance_after": 0,
+    "description": "UPI Transfer"
+  },
+  {
+    "transaction_id": "TXN-0029",
+    "date": "2025-03-27",
+    "type": "debit",
+    "amount": 26822,
+    "balance_after": 138171,
+    "description": "Bill Payment"
+  },
+  {
+    "transaction_id": "TXN-0026",
+    "date": "2025-03-28",
+    "type": "credit",
+    "amount": 32854,
+    "balance_after": 207008,
+    "description": "POS Purchase"
+  },
+  {
+    "transaction_id": "TXN-0010",
+    "date": "2025-04-03",
+    "type": "credit",
+    "amount": 38615,
+    "balance_after": 338864,
+    "description": "Bill Payment"
+  },
+  {
+    "transaction_id": "TXN-0015",
+    "date": "2025-04-03",
+    "type": "debit",
+    "amount": 5864,
+    "balance_after": 325950,
+    "description": "Bill Payment"
+  },
+  {
+    "transaction_id": "TXN-0011",
+    "date": "2025-04-07",
+    "type": "debit",
+    "amount": 6885,
+    "balance_after": 331979,
+    "description": "Bill Payment"
+  },
+  {
+    "transaction_id": "TXN-0116",
+    "date": "2025-04-08",
+    "type": "debit",
+    "amount": 16600,
+    "balance_after": 0,
+    "description": "UPI Transfer"
+  },
+  {
+    "transaction_id": "TXN-0056",
+    "date": "2025-04-10",
+    "type": "debit",
+    "amount": 26759,
+    "balance_after": 0,
+    "description": "ATM Withdrawal"
+  },
+  {
+    "transaction_id": "TXN-0059",
+    "date": "2025-04-10",
+    "type": "debit",
+    "amount": 29809,
+    "balance_after": 0,
+    "description": "Salary Credit"
+  },
+  {
+    "transaction_id": "TXN-0095",
+    "date": "2025-04-11",
+    "type": "debit",
+    "amount": 21374,
+    "balance_after": 0,
+    "description": "POS Purchase"
+  },
+  {
+    "transaction_id": "TXN-0057",
+    "date": "2025-04-13",
+    "type": "debit",
+    "amount": 23802,
+    "balance_after": 0,
+    "description": "POS Purchase"
+  },
+  {
+    "transaction_id": "TXN-0062",
+    "date": "2025-04-15",
+    "type": "debit",
+    "amount": 41398,
+    "balance_after": 0,
+    "description": "Bill Payment"
+  },
+  {
+    "transaction_id": "TXN-0052",
+    "date": "2025-04-16",
+    "type": "debit",
+    "amount": 10107,
+    "balance_after": 0,
+    "description": "Bill Payment"
+  },
+  {
+    "transaction_id": "TXN-0072",
+    "date": "2025-04-19",
+    "type": "credit",
+    "amount": 17004,
+    "balance_after": 0,
+    "description": "ATM Withdrawal"
+  },
+  {
+    "transaction_id": "TXN-0027",
+    "date": "2025-04-22",
+    "type": "debit",
+    "amount": 8976,
+    "balance_after": 198032,
+    "description": "ATM Withdrawal"
+  },
+  {
+    "transaction_id": "TXN-0092",
+    "date": "2025-04-23",
+    "type": "credit",
+    "amount": 26600,
+    "balance_after": 0,
+    "description": "UPI Transfer"
+  },
+  {
+    "transaction_id": "TXN-0107",
+    "date": "2025-04-24",
+    "type": "credit",
+    "amount": 17831,
+    "balance_after": 0,
+    "description": "POS Purchase"
+  },
+  {
+    "transaction_id": "TXN-0055",
+    "date": "2025-04-25",
+    "type": "debit",
+    "amount": 42209,
+    "balance_after": 0,
+    "description": "ATM Withdrawal"
+  },
+  {
+    "transaction_id": "TXN-0061",
+    "date": "2025-04-27",
+    "type": "debit",
+    "amount": 13391,
+    "balance_after": 0,
+    "description": "Salary Credit"
+  },
+  {
+    "transaction_id": "TXN-0119",
+    "date": "2025-04-28",
+    "type": "debit",
+    "amount": 13517,
+    "balance_after": 0,
+    "description": "ATM Withdrawal"
+  },
+  {
+    "transaction_id": "TXN-0032",
+    "date": "2025-04-29",
+    "type": "credit",
+    "amount": 5938,
+    "balance_after": 148811,
+    "description": "ATM Withdrawal"
+  },
+  {
+    "transaction_id": "TXN-0089",
+    "date": "2025-05-04",
+    "type": "debit",
+    "amount": 5292,
+    "balance_after": 0,
+    "description": "ATM Withdrawal"
+  },
+  {
+    "transaction_id": "TXN-0074",
+    "date": "2025-05-13",
+    "type": "debit",
+    "amount": 9090,
+    "balance_after": 0,
+    "description": "POS Purchase"
+  },
+  {
+    "transaction_id": "TXN-0054",
+    "date": "2025-05-14",
+    "type": "debit",
+    "amount": 11447,
+    "balance_after": 0,
+    "description": "Salary Credit"
+  },
+  {
+    "transaction_id": "TXN-0035",
+    "date": "2025-05-15",
+    "type": "debit",
+    "amount": 768,
+    "balance_after": 65279,
+    "description": "ATM Withdrawal"
+  },
+  {
+    "transaction_id": "TXN-0111",
+    "date": "2025-05-15",
+    "type": "credit",
+    "amount": 12371,
+    "balance_after": 0,
+    "description": "ATM Withdrawal"
+  },
+  {
+    "transaction_id": "TXN-0022",
+    "date": "2025-05-19",
+    "type": "debit",
+    "amount": 46181,
+    "balance_after": 233771,
+    "description": "POS Purchase"
+  },
+  {
+    "transaction_id": "TXN-0114",
+    "date": "2025-05-19",
+    "type": "debit",
+    "amount": 1690,
+    "balance_after": 0,
+    "description": "Salary Credit"
+  },
+  {
+    "transaction_id": "TXN-0030",
+    "date": "2025-05-23",
+    "type": "credit",
+    "amount": 28714,
+    "balance_after": 166885,
+    "description": "Bill Payment"
+  },
+  {
+    "transaction_id": "TXN-0031",
+    "date": "2025-05-23",
+    "type": "debit",
+    "amount": 24012,
+    "balance_after": 142873,
+    "description": "UPI Transfer"
+  },
+  {
+    "transaction_id": "TXN-0017",
+    "date": "2025-05-28",
+    "type": "credit",
+    "amount": 8237,
+    "balance_after": 311177,
+    "description": "Bill Payment"
+  },
+  {
+    "transaction_id": "TXN-0113",
+    "date": "2025-05-29",
+    "type": "debit",
+    "amount": 33273,
+    "balance_after": 0,
+    "description": "ATM Withdrawal"
+  },
+  {
+    "transaction_id": "TXN-0073",
+    "date": "2025-05-30",
+    "type": "debit",
+    "amount": 38932,
+    "balance_after": 0,
+    "description": "Salary Credit"
+  },
+  {
+    "transaction_id": "TXN-0099",
+    "date": "2025-06-01",
+    "type": "credit",
+    "amount": 7895,
+    "balance_after": 0,
+    "description": "ATM Withdrawal"
+  },
+  {
+    "transaction_id": "TXN-0016",
+    "date": "2025-06-03",
+    "type": "debit",
+    "amount": 23010,
+    "balance_after": 302940,
+    "description": "UPI Transfer"
+  },
+  {
+    "transaction_id": "TXN-0090",
+    "date": "2025-06-05",
+    "type": "credit",
+    "amount": 10621,
+    "balance_after": 0,
+    "description": "Salary Credit"
+  },
+  {
+    "transaction_id": "TXN-0112",
+    "date": "2025-06-09",
+    "type": "debit",
+    "amount": 35305,
+    "balance_after": 0,
+    "description": "ATM Withdrawal"
+  },
+  {
+    "transaction_id": "TXN-0020",
+    "date": "2025-06-10",
+    "type": "debit",
+    "amount": 46066,
+    "balance_after": 284958,
+    "description": "Salary Credit"
+  },
+  {
+    "transaction_id": "TXN-0037",
+    "date": "2025-06-13",
+    "type": "credit",
+    "amount": 45752,
+    "balance_after": 70567,
+    "description": "Bill Payment"
+  },
+  {
+    "transaction_id": "TXN-0001",
+    "date": "2025-06-15",
+    "type": "credit",
+    "amount": 26375,
+    "balance_after": 276375,
+    "description": "POS Purchase"
+  },
+  {
+    "transaction_id": "TXN-0080",
+    "date": "2025-06-16",
+    "type": "debit",
+    "amount": 7453,
+    "balance_after": 0,
+    "description": "Bill Payment"
+  },
+  {
+    "transaction_id": "TXN-0025",
+    "date": "2025-06-27",
+    "type": "credit",
+    "amount": 30757,
+    "balance_after": 174154,
+    "description": "Salary Credit"
+  },
+  {
+    "transaction_id": "TXN-0047",
+    "date": "2025-06-27",
+    "type": "debit",
+    "amount": 31573,
+    "balance_after": 9016,
+    "description": "POS Purchase"
+  },
+  {
+    "transaction_id": "TXN-0075",
+    "date": "2025-07-01",
+    "type": "debit",
+    "amount": 43915,
+    "balance_after": 0,
+    "description": "Bill Payment"
+  },
+  {
+    "transaction_id": "TXN-0060",
+    "date": "2025-07-06",
+    "type": "credit",
+    "amount": 14948,
+    "balance_after": 0,
+    "description": "POS Purchase"
+  },
+  {
+    "transaction_id": "TXN-0096",
+    "date": "2025-07-07",
+    "type": "credit",
+    "amount": 22649,
+    "balance_after": 0,
+    "description": "Bill Payment"
+  },
+  {
+    "transaction_id": "TXN-0046",
+    "date": "2025-07-12",
+    "type": "credit",
+    "amount": 42076,
+    "balance_after": 40589,
+    "description": "Salary Credit"
+  },
+  {
+    "transaction_id": "TXN-0098",
+    "date": "2025-07-16",
+    "type": "debit",
+    "amount": 34410,
+    "balance_after": 0,
+    "description": "Bill Payment"
+  },
+  {
+    "transaction_id": "TXN-0039",
+    "date": "2025-07-20",
+    "type": "debit",
+    "amount": 26647,
+    "balance_after": 0,
+    "description": "UPI Transfer"
+  },
+  {
+    "transaction_id": "TXN-0088",
+    "date": "2025-07-20",
+    "type": "debit",
+    "amount": 21208,
+    "balance_after": 0,
+    "description": "POS Purchase"
+  },
+  {
+    "transaction_id": "TXN-0118",
+    "date": "2025-07-21",
+    "type": "debit",
+    "amount": 45571,
+    "balance_after": 0,
+    "description": "ATM Withdrawal"
+  },
+  {
+    "transaction_id": "TXN-0028",
+    "date": "2025-07-23",
+    "type": "debit",
+    "amount": 33039,
+    "balance_after": 164993,
+    "description": "POS Purchase"
+  },
+  {
+    "transaction_id": "TXN-0120",
+    "date": "2025-07-27",
+    "type": "debit",
+    "amount": 4064,
+    "balance_after": 0,
+    "description": "ATM Withdrawal"
+  },
+  {
+    "transaction_id": "TXN-0109",
+    "date": "2025-08-02",
+    "type": "debit",
+    "amount": 41243,
+    "balance_after": 0,
+    "description": "ATM Withdrawal"
+  },
+  {
+    "transaction_id": "TXN-0018",
+    "date": "2025-08-03",
+    "type": "credit",
+    "amount": 22916,
+    "balance_after": 334093,
+    "description": "ATM Withdrawal"
+  },
+  {
+    "transaction_id": "TXN-0036",
+    "date": "2025-08-03",
+    "type": "debit",
+    "amount": 40464,
+    "balance_after": 24815,
+    "description": "Bill Payment"
+  },
+  {
+    "transaction_id": "TXN-0102",
+    "date": "2025-08-05",
+    "type": "debit",
+    "amount": 27104,
+    "balance_after": 0,
+    "description": "ATM Withdrawal"
+  },
+  {
+    "transaction_id": "TXN-0105",
+    "date": "2025-08-06",
+    "type": "credit",
+    "amount": 18124,
+    "balance_after": 0,
+    "description": "POS Purchase"
+  },
+  {
+    "transaction_id": "TXN-0004",
+    "date": "2025-08-11",
+    "type": "debit",
+    "amount": 5078,
+    "balance_after": 292805,
+    "description": "ATM Withdrawal"
+  },
+  {
+    "transaction_id": "TXN-0042",
+    "date": "2025-08-14",
+    "type": "credit",
+    "amount": 7704,
+    "balance_after": 0,
+    "description": "Salary Credit"
+  },
+  {
+    "transaction_id": "TXN-0024",
+    "date": "2025-08-17",
+    "type": "debit",
+    "amount": 47464,
+    "balance_after": 143397,
+    "description": "UPI Transfer"
+  },
+  {
+    "transaction_id": "TXN-0087",
+    "date": "2025-08-18",
+    "type": "credit",
+    "amount": 27804,
+    "balance_after": 0,
+    "description": "POS Purchase"
+  },
+  {
+    "transaction_id": "TXN-0085",
+    "date": "2025-08-20",
+    "type": "debit",
+    "amount": 33776,
+    "balance_after": 0,
+    "description": "ATM Withdrawal"
+  },
+  {
+    "transaction_id": "TXN-0014",
+    "date": "2025-08-21",
+    "type": "debit",
+    "amount": 20145,
+    "balance_after": 331814,
+    "description": "ATM Withdrawal"
+  },
+  {
+    "transaction_id": "TXN-0108",
+    "date": "2025-08-21",
+    "type": "credit",
+    "amount": 22726,
+    "balance_after": 0,
+    "description": "Bill Payment"
+  },
+  {
+    "transaction_id": "TXN-0097",
+    "date": "2025-08-23",
+    "type": "debit",
+    "amount": 46581,
+    "balance_after": 0,
+    "description": "POS Purchase"
+  },
+  {
+    "transaction_id": "TXN-0079",
+    "date": "2025-08-31",
+    "type": "credit",
+    "amount": 36969,
+    "balance_after": 0,
+    "description": "POS Purchase"
+  },
+  {
+    "transaction_id": "TXN-0065",
+    "date": "2025-09-02",
+    "type": "credit",
+    "amount": 28937,
+    "balance_after": 0,
+    "description": "Salary Credit"
+  },
+  {
+    "transaction_id": "TXN-0051",
+    "date": "2025-09-03",
+    "type": "credit",
+    "amount": 34338,
+    "balance_after": 0,
+    "description": "POS Purchase"
+  },
+  {
+    "transaction_id": "TXN-0049",
+    "date": "2025-09-05",
+    "type": "debit",
+    "amount": 6128,
+    "balance_after": 0,
+    "description": "ATM Withdrawal"
+  },
+  {
+    "transaction_id": "TXN-0019",
+    "date": "2025-09-08",
+    "type": "debit",
+    "amount": 3069,
+    "balance_after": 331024,
+    "description": "POS Purchase"
+  },
+  {
+    "transaction_id": "TXN-0013",
+    "date": "2025-09-12",
+    "type": "debit",
+    "amount": 21087,
+    "balance_after": 351959,
+    "description": "UPI Transfer"
+  },
+  {
+    "transaction_id": "TXN-0021",
+    "date": "2025-09-12",
+    "type": "debit",
+    "amount": 5006,
+    "balance_after": 279952,
+    "description": "POS Purchase"
+  },
+  {
+    "transaction_id": "TXN-0084",
+    "date": "2025-09-16",
+    "type": "debit",
+    "amount": 45898,
+    "balance_after": 0,
+    "description": "Salary Credit"
+  },
+  {
+    "transaction_id": "TXN-0094",
+    "date": "2025-09-21",
+    "type": "debit",
+    "amount": 22724,
+    "balance_after": 0,
+    "description": "UPI Transfer"
+  },
+  {
+    "transaction_id": "TXN-0103",
+    "date": "2025-09-21",
+    "type": "debit",
+    "amount": 46402,
+    "balance_after": 0,
+    "description": "Salary Credit"
+  },
+  {
+    "transaction_id": "TXN-0076",
+    "date": "2025-09-22",
+    "type": "debit",
+    "amount": 33376,
+    "balance_after": 0,
+    "description": "ATM Withdrawal"
+  },
+  {
+    "transaction_id": "TXN-0086",
+    "date": "2025-09-25",
+    "type": "debit",
+    "amount": 37168,
+    "balance_after": 0,
+    "description": "ATM Withdrawal"
+  }
+]

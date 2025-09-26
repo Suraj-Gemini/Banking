@@ -1,0 +1,22 @@
+[
+  {
+    "accountId": "SB-1234",
+    "type": "Savings",
+    "balance": 325000
+  },
+  {
+    "accountId": "CA-9801",
+    "type": "Checking",
+    "balance": 58000
+  },
+  {
+    "accountId": "FD-4455",
+    "type": "FD",
+    "balance": 750000
+  },
+  {
+    "accountId": "CC-7788",
+    "type": "CreditCard",
+    "balance": -18000
+  }
+]
