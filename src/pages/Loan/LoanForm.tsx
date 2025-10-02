@@ -48,8 +48,8 @@ export default function LoanForm() {
         dob: '',
         address: '',
         loanType: 'Personal',
-        amount: 100000,
-        tenure: 12,
+        amount: 1000,
+        tenure: 1,
         income: 800000,
       },
   });
