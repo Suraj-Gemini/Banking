@@ -1,7 +1,6 @@
 import { AppBar, Toolbar, Typography, Button } from '@mui/material';
 import { BrowserRouter as Router, Route, Link, Routes } from 'react-router-dom';
 import LoanForm from './pages/Loan/LoanForm';
-// import Dashboard from './pages/Dashboard/Dashboard';
 
 function App() {
   return (
@@ -18,7 +17,6 @@ function App() {
         </Toolbar>
       </AppBar>
         <Routes>
-          {/* <Route path="/" element={<Dashboard />} /> */}
           <Route path="/loan" element={<LoanForm />} />
         </Routes>
    

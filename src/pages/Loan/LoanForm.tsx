@@ -4,7 +4,6 @@ import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { useNavigate } from 'react-router-dom';
 import { schema, type LoanFormData } from './loanSchema';
-
 import StepPersonal from './steps/StepPersonal';
 import StepLoanDetails from './steps/StepLoanDetails';
 import StepDocuments from './steps/StepDocuments';
@@ -55,7 +54,6 @@ export default function LoanForm() {
       },
   });
 
-   // Rehydrate form with saved values
   useEffect(() => {
     if (saved) {
       reset(saved);
@@ -63,7 +61,6 @@ export default function LoanForm() {
   }, [saved, reset]);
   const navigate = useNavigate();
 
- // Persist form + step to localStorage
   const all = watch();
   useEffect(() => {
     const v = { ...getValues(), __step: step };
@@ -94,7 +91,8 @@ export default function LoanForm() {
 
   return (
     <Container maxWidth="md" className="form-container">
-      <Box className="card" sx={{ marginTop: '5rem' }}>
+      <div className="page-wrapper">
+              <Box className="card" sx={{ marginTop: '5rem' }}>
         <Typography variant="h4" className="form-title">
           Loan Application Form
         </Typography>
@@ -131,6 +129,9 @@ export default function LoanForm() {
           </Box>
         </form>
       </Box>
+
+      </div>
+
     </Container>
   );
 }

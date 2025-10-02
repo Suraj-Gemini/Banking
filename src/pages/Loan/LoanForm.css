@@ -8,6 +8,12 @@
   display: grid;
   gap: 1rem;
 }
+.page-wrapper {
+  display: flex;
+  justify-content: center; 
+  align-items: center;      
+  min-height: 100vh;        
+}
 
 .cols-2 {
   grid-template-columns: repeat(2, 1fr);
@@ -19,16 +25,8 @@
   margin-top: 1rem;
 }
 
-.input_first {
-  margin-bottom: 1rem;
-}
 
 .progress {
   margin-bottom: 2rem;
 }
 
-.card-review {
-  background: transparent;
-  border: 1px dashed gray;
-  padding: 2rem;
-}
