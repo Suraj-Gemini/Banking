@@ -12,18 +12,26 @@ export default function StepDocuments({ register }: StepDocumentsProps) {
       <TextField
         label="Upload Aadhar"
         type="file"
-        inputProps={{ accept: 'image/*,application/pdf',  multiple: false  }}
         {...register('aadhar')}
         fullWidth
-        InputLabelProps={{ shrink: true }}
+        slotProps={{
+  input: {
+    inputProps: { accept: 'image/*,application/pdf', multiple: false },
+  },
+  inputLabel: { shrink: true },
+}}
       />
       <TextField
         label="Upload PAN"
         type="file"
-        inputProps={{ accept: 'image/*,application/pdf',  multiple: false  }}
         {...register('pan')}
         fullWidth
-        InputLabelProps={{ shrink: true }}
+        slotProps={{
+  input: {
+    inputProps: { accept: 'image/*,application/pdf', multiple: false },
+  },
+  inputLabel: { shrink: true },
+}}
       />
     </Box>
   );
