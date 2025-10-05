@@ -1,9 +1,9 @@
 
-import { useSelector } from 'react-redux'
+import { useAppSelector } from '../../../store/hooks'
 import { AreaChart, Area, XAxis, YAxis, Tooltip, ResponsiveContainer, Legend } from 'recharts'
 
 export default function SummaryTab(){
-  const { creditCardSpends, investments, accounts } = useSelector(s=>s.dashboard)
+  const { creditCardSpends, investments, accounts } = useAppSelector(s=>s.dashboard)
   const totalBalance = accounts.reduce((a,b)=>a+Number(b.balance),0)
   const totalInvested = investments ? investments.mutualFunds.reduce((a,b)=>a+b.amountInvested,0) + investments.stocks.reduce((a,b)=>a+(b.units*b.buyPrice),0) : 0
 
@@ -34,7 +34,7 @@ export default function SummaryTab(){
               </defs>
               <XAxis dataKey="month" />
               <YAxis />
-              <Tooltip formatter={(v)=>`₹${Number(v).toLocaleString()}`} />
+              <Tooltip formatter={(v: number)=>`₹${Number(v).toLocaleString()}`} />
               <Legend />
               <Area type="monotone" dataKey="spend" name="Spends" stroke="#ef4444" fillOpacity={1} fill="url(#colorSpend)" />
             </AreaChart>
@@ -43,12 +43,7 @@ export default function SummaryTab(){
       </div>
 
       <div className="card">
-        <h3 style={{marginTop:0}}>Tips</h3>
-        <ul>
-          <li>Use filters to analyze performance in a specific period.</li>
-          <li>Switch to dark mode for low-light environments.</li>
-          <li>Review credit card spends monthly to avoid overspending.</li>
-        </ul>
+        
       </div>
     </div>
   )

@@ -1,15 +1,14 @@
 
-import { useSelector } from 'react-redux'
+import { useAppSelector } from '../../../store/hooks'
 import { PieChart, Pie, Cell, ResponsiveContainer, Tooltip, Legend } from 'recharts'
 
 const COLORS = ['#2563eb', '#10b981', '#f59e0b', '#ef4444']
 
 export default function AccountsTab(){
-  const { accounts, filters } = useSelector(s=>s.dashboard)
-  const filtered = accounts.filter(a=>{
-    if (filters.accountTypes.length && !filters.accountTypes.includes(a.type)) return false
-    return true
-  })
+  const { accounts, filters } = useAppSelector(s=>s.dashboard)
+  const filtered = accounts.filter(a=>
+    !filters.accountTypes.length || filters.accountTypes.includes(a.type)
+  )
   const data = filtered.map(a=>({ name: `${a.type} (${a.accountId})`, value: a.balance }))
 
   return (
@@ -24,7 +23,7 @@ export default function AccountsTab(){
                   <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
                 ))}
               </Pie>
-              <Tooltip formatter={(v)=>`₹${v.toLocaleString()}`} />
+              <Tooltip formatter={(v:number)=>`₹${v.toLocaleString()}`} />
               <Legend />
             </PieChart>
           </ResponsiveContainer>

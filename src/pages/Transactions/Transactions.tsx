@@ -82,7 +82,7 @@ function generateMockTransactions(count: number, seed = 42): Transaction[] {
 }
 
 async function fetchTransactions(): Promise<Transaction[]> {
-  await new Promise(r => setTimeout(r, 400));
+  await new Promise(r => setTimeout(r));
   return generateMockTransactions(137);
 }
 
