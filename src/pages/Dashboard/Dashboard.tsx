@@ -33,7 +33,7 @@ export default function Dashboard() {
             dispatch(setAccountTypes(opts))
           }} style={{ minWidth: 220, height: 74 }}>
             <option value="Savings">Savings</option>
-            <option value="Checking">Checking</option>
+            <option value="Current">Current</option>
             <option value="FD">FD</option>
             <option value="CreditCard">CreditCard</option>
           </select>
