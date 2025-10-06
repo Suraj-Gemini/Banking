@@ -1,11 +1,24 @@
 
+import type { CreditCardSpend } from '../../../features/dashboard/dashboardSlice'
 import { useAppSelector } from '../../../store/hooks'
 import { AreaChart, Area, XAxis, YAxis, Tooltip, ResponsiveContainer, Legend } from 'recharts'
 
 export default function SummaryTab(){
-  const { creditCardSpends, investments, accounts } = useAppSelector(s=>s.dashboard)
+  const { allCreditCardSpends, investments, accounts, filters } = useAppSelector(s=>s.dashboard)
+
   const totalBalance = accounts.reduce((a,b)=>a+Number(b.balance),0)
   const totalInvested = investments ? investments.mutualFunds.reduce((a,b)=>a+b.amountInvested,0) + investments.stocks.reduce((a,b)=>a+(b.units*b.buyPrice),0) : 0
+
+function filterSpendByDate(
+  data:  CreditCardSpend[],
+  startDate: string,  // e.g. "2025-03"
+  endDate: string     // e.g. "2025-07"
+): CreditCardSpend[] {
+  // Convert strings to comparable date strings (YYYY-MM format already good)
+  return data.filter(record => {
+    return record.month >= startDate && record.month <= endDate;
+  });
+}
 
   return (
     <div className="grid cols">
@@ -25,7 +38,8 @@ export default function SummaryTab(){
         <h4>Credit Card Spends (Monthly)</h4>
         <div style={{width:'100%', height:280}}>
           <ResponsiveContainer>
-            <AreaChart data={creditCardSpends} margin={{ left: 8, right: 8, top: 10, bottom: 10 }}>
+            
+            <AreaChart data={allCreditCardSpends} margin={{ left: 8, right: 8, top: 10, bottom: 10 }}>
               <defs>
                 <linearGradient id="colorSpend" x1="0" y1="0" x2="0" y2="1">
                   <stop offset="5%" stopColor="#ef4444" stopOpacity={0.8}/>

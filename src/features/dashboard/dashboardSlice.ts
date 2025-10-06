@@ -31,7 +31,7 @@ const slice = createSlice({
     accounts: [] as Account[],
     investments: null as Investments | null,
     creditCardSpends: [] as CreditCardSpend[],
-    allCreditCardSpends: [] as CreditCardSpend[], // preserve original data
+    allCreditCardSpends: [] as CreditCardSpend[], 
     filters: { startDate: null, endDate: null, accountTypes: [] as Account['type'][] } as DashboardFilters,
   },
   reducers: {
