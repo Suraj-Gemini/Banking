@@ -8,3 +8,23 @@
   min-height: 100vh;
   display: flex;
 }
+
+/* index.css */
+ :root[data-theme='light'] {
+  --input-text: #555555;
+  --input-bg: #f5f5f5;
+  --input-label: #555555;
+  --input-border: #cccccc;
+}
+
+:root[data-theme='dark'] {
+  --input-text: #ffffff;
+  --input-bg: #1e1e1e;
+  --input-label: #cccccc;
+  --input-border: #444444;
+} 
+
+
+html {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}

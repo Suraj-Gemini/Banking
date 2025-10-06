@@ -8,7 +8,7 @@ export default function SummaryTab(){
   const totalInvested = investments ? investments.mutualFunds.reduce((a,b)=>a+b.amountInvested,0) + investments.stocks.reduce((a,b)=>a+(b.units*b.buyPrice),0) : 0
 
   return (
-    <div className="grid cols-2">
+    <div className="grid cols">
       <div className="card">
         <h3 style={{marginTop:0}}>Summary</h3>
         <div className="grid cols-2">
@@ -40,10 +40,6 @@ export default function SummaryTab(){
             </AreaChart>
           </ResponsiveContainer>
         </div>
-      </div>
-
-      <div className="card">
-        
       </div>
     </div>
   )

@@ -19,6 +19,26 @@ html[data-theme="dark"]{
   --good: #22c55e;
   --bad: #ef4444;
 }
+
+ :root[data-theme='light'] {
+  --input-text: #000000;
+  --input-bg: #f5f5f5;
+  --input-label: #555555;
+  --input-border: #cccccc;
+  --bg-color: #ffffff;
+  --text-color: #000000;
+}
+
+:root[data-theme='dark'] {
+  --input-text: #ffffff;
+  --input-bg: #1e1e1e;
+  --input-label: #cccccc;
+  --input-border: #444444;
+  --bg-color: #0b1220;
+  --text-color: #ffffff;
+} 
+
+
 *{ box-sizing: border-box; }
 body{ margin:0; font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial; background: var(--bg); color: var(--fg); }
 .app-header{ display:flex; align-items:center; justify-content:space-between; gap:1rem; padding: 1rem 1.25rem; border-bottom: 1px solid var(--border); position: sticky; top:0; background: var(--bg); z-index:10; }
@@ -38,8 +58,6 @@ label{ display:block; font-size:.85rem; color: var(--muted); margin-bottom:.25re
 
 .btn{ cursor:pointer; background: var(--primary); color:white; border:none; padding:.6rem .9rem; border-radius:8px; }
 
-
-
 .table{ width:100%; border-collapse: collapse; }
 
 .tabs{ display:flex; gap:.5rem; margin-bottom: 1rem; margin-top: 1rem;}
@@ -49,17 +67,8 @@ label{ display:block; font-size:.85rem; color: var(--muted); margin-bottom:.25re
 .small{ font-size:1rem; color: var(--muted); }
 .separator{ height:1px; background: var(--border); margin: .75rem 0; }
 
-
-
 .app-header nav{ display:flex; gap: .75rem; }
 .tabs a{ padding:.4rem .7rem; border-radius: 999px; border:1px solid var(--border); background: transparent; color: var(--muted) }
 .tabs a.active{ background: var(--primary); color: white; border-color: var(--primary) }
 .table th, .table td{ padding:.6rem .5rem; border-bottom:1px solid var(--border); text-align:left; }
 .table th{ color: var(--muted); font-weight:600; }
-
-/* .badge{ padding:.2rem .45rem; border-radius:999px; font-size:.75rem; border:1px solid var(--border); }
-.badge.green{ color: var(--good); border-color: var(--good); }
-.badge.red{ color: var(--bad); border-color: var(--bad); }
-.btn.secondary{ background: transparent; color: var(--fg); border:1px solid var(--border); }
-.btn.ghost{ background: transparent; color: var(--muted); border: none; }
- */
