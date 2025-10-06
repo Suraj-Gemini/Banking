@@ -89,6 +89,19 @@ export default function LoanForm() {
     navigate('/');   // Go back to Dashboard
   };
 
+  function ProgressBar({ progress }: { progress: number }) {
+  return (
+    <Box sx={{ width: '100%', marginTop: 2, marginBottom: 2 }} aria-label="Form completion">
+      <LinearProgress
+        variant="determinate"
+        value={progress}
+        sx={{ height: 8, borderRadius: 4 }}
+      />
+    </Box>
+  );
+}
+
+
   return (
     //<Container maxWidth="md" className="md">
      // <div className="page-wrapper">
@@ -97,8 +110,8 @@ export default function LoanForm() {
           <Typography variant="h4" className="form-title">
             Loan Application Form
           </Typography>
-
-          <LinearProgress variant="determinate" value={progress} className="progress" />
+<ProgressBar progress={progress} />
+         
           <Typography variant="subtitle1" className="step-title">
             Step {step} of 4
           </Typography>
