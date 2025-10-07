@@ -31,7 +31,7 @@ export default function Dashboard() {
           <select multiple value={filters.accountTypes as string[]} onChange={(e) => {
             const opts = Array.from(e.target.selectedOptions).map(o => o.value as any)
             dispatch(setAccountTypes(opts))
-          }} style={{ minWidth: 220, height: 74 }}>
+          }} style={{ minWidth: 220, height: 80 }}>
             <option value="Savings">Savings</option>
             <option value="Current">Current</option>
             <option value="FD">FD</option>

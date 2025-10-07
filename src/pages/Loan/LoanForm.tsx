@@ -90,61 +90,60 @@ export default function LoanForm() {
   };
 
   function ProgressBar({ progress }: { progress: number }) {
-  return (
-    <Box sx={{ width: '100%', marginTop: 2, marginBottom: 2 }} aria-label="Form completion">
-      <LinearProgress
-        variant="determinate"
-        value={progress}
-        sx={{ height: 8, borderRadius: 4 }}
-      />
-    </Box>
-  );
-}
+    return (
+      <Box sx={{ width: '100%', marginTop: 2, marginBottom: 2 }} aria-label="Form completion">
+        <LinearProgress
+          variant="determinate"
+          value={progress}
+          sx={{ height: 8, borderRadius: 4 }}
+        />
+      </Box>
+    );
+  }
 
 
   return (
     //<Container maxWidth="md" className="md">
-     // <div className="page-wrapper">
-         <div className="card">
-        <Box className="card" sx={{ marginTop: '5rem' }}>
-          <Typography variant="h4" className="form-title">
-            Loan Application Form
-          </Typography>
-<ProgressBar progress={progress} />
-         
-          <Typography variant="subtitle1" className="step-title">
-            Step {step} of 4
-          </Typography>
+    // <div className="page-wrapper">
+    <div className="card">
+      <Box sx={{ marginTop: '5rem' }}>
+        <Typography variant="h4" className="form-title">
+          Loan Application Form
+        </Typography>
+        <ProgressBar progress={progress} />
+        <Typography variant="subtitle1" className="step-title">
+          Step {step} of 4
+        </Typography>
 
-          <form onSubmit={handleSubmit(onSubmit)}>
-            {step === 1 && <StepPersonal register={register} errors={errors} />}
-            {step === 2 && <StepLoanDetails register={register} errors={errors} getValues={getValues} />}
-            {step === 3 && <StepDocuments register={register} />}
-            {step === 4 && <StepReview getValues={getValues} setStep={setStep} />}
+        <form onSubmit={handleSubmit(onSubmit)}>
+          {step === 1 && <StepPersonal register={register} errors={errors} />}
+          {step === 2 && <StepLoanDetails register={register} errors={errors} getValues={getValues} />}
+          {step === 3 && <StepDocuments register={register} />}
+          {step === 4 && <StepReview getValues={getValues} setStep={setStep} />}
 
-            <Box className="row">
-              {step > 1 && (
-                <Button variant="outlined" onClick={onPrev}>
-                  Back
-                </Button>
-              )}
-              {step < 4 ? (
-                <Button variant="contained" type="button" onClick={async (e) => {
-                  e.preventDefault();
-                  await onNext();
-                }}>
-                  Next
-                </Button>
-              ) : (
-                <Button variant="contained" type="submit">
-                  Submit
-                </Button>
-              )}
-            </Box>
-          </form>
-        </Box>
- </div>
-  //    </div>
+          <Box className="row">
+            {step > 1 && (
+              <Button variant="outlined" onClick={onPrev}>
+                Back
+              </Button>
+            )}
+            {step < 4 ? (
+              <Button variant="contained" type="button" onClick={async (e) => {
+                e.preventDefault();
+                await onNext();
+              }}>
+                Next
+              </Button>
+            ) : (
+              <Button variant="contained" type="submit">
+                Submit
+              </Button>
+            )}
+          </Box>
+        </form>
+      </Box>
+    </div>
+    //    </div>
     //</Container>
   );
 }
